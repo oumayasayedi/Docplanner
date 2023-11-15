@@ -1,0 +1,412 @@
+.body{
+  width:  100%; 
+  overflow-x: hidden;
+}
+
+.main-header{
+    width: 70%;
+  
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff;
+    
+   
+    
+   
+     
+  
+}
+
+
+h1{
+    margin: 10px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+
+    color: #00b39b;
+}
+.main-menu{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    list-style: none;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color:#747474;
+   
+}
+.leadsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px auto 60px;
+    
+}
+.grid{
+  
+  width: 70%;
+    font-size: larger;
+    line-height: 30px;
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.grid p{padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*section services*/
+.grid_1 {
+  
+  border-radius: 10px;
+  padding: 32px 32px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+  background-color: #00ccb1;
+
+}
+.grid_2 {
+ 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  height: 340px;
+  background-color: #3d83df;
+  
+}
+.grid_3{
+
+  border-radius: 10px;
+  padding: 32px 32px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+  background-color: #1b2734;
+}
+.services {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 16px 16px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 60px auto 40px;
+ 
+  
+}
+h1{color: #fff;}
+
+.service img {
+  margin-top: 3px;
+  width: 30px;
+  height: 30px;
+  padding-left: 0%;
+}
+.service p {
+  margin-top: 5px;
+  line-height: 30px;
+  font-size: 20px;
+  padding-left: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.service1 select {
+  background-color: #00ccb1;;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
+  color: #fff;
+  font-size: large;
+  
+}
+.service2 select {
+  background-color: #3d83df;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
+  color: #fff;
+  font-size: large;
+}
+.service3 select {
+  background-color: #1b2734;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
+  color: #fff;
+  font-size: large;
+}
+
+
+/*section brands*/
+.brands {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;}
+ 
+   
+
+
+.paragraphe {
+  font-weight: 50;
+  width: 50%;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: x-large;
+  letter-spacing: -0.3px;
+  position: relative;
+  left: 5%;
+  
+
+}
+.logos {
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  right: 5%;
+  width:50%;
+}
+
+
+.logos img {
+  width: 10%;
+}
+/*section brands*/
+.intro {
+  font-family: Work Sans, Arial, sans-serif;
+  padding-top: 50px;
+
+}
+.intro h2 {
+  color: #00b39b;
+  font-weight: 300;
+  padding-left: 50px;
+  letter-spacing: 0.4px;
+  font-size: 30px;
+}
+.intro p {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+  letter-spacing: 0.2px;
+}
+
+.part1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.part2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.parts {
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+  width: 100;
+  font-size: 0.9rem;
+}
+
+.parts p {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  background-color: #d0faf4;
+  padding-left: 50px;
+}
+
+.leader {
+  margin-bottom: 20px;
+}
+.appointments {
+  margin-bottom: 20px;}
+.leader,
+.patients,
+.appointments,
+.doctors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center; 
+}
+.leader img,
+.patients img,
+.appointments img,
+.doctors img {
+  width: 30px;
+  height: 38px;
+}
+.parts div {
+ width: 250px;
+ height: 500px
+}
+
+.header p {
+  margin:25.6px 0;
+  line-height: 1.7142857143;
+  text-align: center;
+  font-weight: 200;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.header h3{
+  font-size: 32px;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+.slider {
+  width: 100%;
+  display: flex;
+  gap: 0.5cm;
+
+  flex-wrap: wrap;
+  position: relative;
+  left:10%;
+ margin: auto;
+
+  
+}
+
+.slider .card {
+  border-radius: 1%;
+  margin: 1.8%;
+  cursor: pointer;
+ 
+
+}
+.card:hover{
+  box-shadow: 10px 5px 10px gray;
+  }
+ 
+.slider p {
+  font-size: medium;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.slider button{
+  margin-top: 0.9cm;
+  display: flex;
+  justify-content: center;
+  background: #3d83df;
+  line-height: 1.5em;
+  color: #fff;
+  letter-spacing: 0px;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14.4 px;
+  font-family: Roboto, Arial, sans-serif;
+  margin-right: 30px;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  }
+  
+
+
+div .buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.join_us button {
+  margin-left: 120px;
+  font-size: 16px;
+  background-color: #3d83df;
+  color: #fff;
+  font-family:monospace;
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+  border: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.join_us h1{
+  font-size: 34.285714286px;
+  color: #333;
+  margin-bottom: 12.8px;
+  font-family: Work Sans, Arial;
+  font-weight: 150;
+  text-align: center;
+  margin-top: 64px;
+}
+.join_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  text-align: center;
+  margin-top: 100px;
+  color: #ababab;
+  font-family: Roboto, Arial, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: small;
+  
+}
+footer p {
+  padding-top: 10px;
+}
+
+
+
+
+  
+
+  
+            
+
+    
